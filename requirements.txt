@@ -99,8 +99,6 @@ terminado==0.8.3
 testpath==0.4.4
 tldextract==2.2.2
 torch==0.1.2.post2
-torchvision==0.4.1
-tornado==6.0.4
+torchvision==0.2.2.post3
 tqdm==4.46.1
 urllib3==1.25.9
-virtualenv==16.0.0
