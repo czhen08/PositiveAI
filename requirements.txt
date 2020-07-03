@@ -1,6 +1,6 @@
 numpy==1.18.5
 pytorch_nlp==0.5.0
-https://download.pytorch.org/whl/cu101/torch-1.4.0-cp36-cp36m-win_amd64.whl
+https://download.pytorch.org/whl/cpu/torch-1.4.0%2Bcpu-cp36-cp36m-win_amd64.whl
 colorama==0.4.3
 Flask_Cors==3.0.8
 pandas==1.0.5
