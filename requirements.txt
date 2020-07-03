@@ -80,8 +80,6 @@ prompt-toolkit==3.0.4
 pycparser==2.20
 pyee==7.0.2
 Pygments==2.6.1
-pygpu==0.7.6
-pylint==2.3.1
 pyodbc==4.0.30
 pyparsing==2.4.7
 pyppeteer==0.2.2
@@ -91,9 +89,6 @@ pyrsistent==0.16.0
 python-dateutil==2.8.1
 pytorch-nlp==0.5.0
 pytorch-pretrained-bert==0.6.2
-pytz==2020.1
-pywin32==227
-pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==18.1.1
 regex==2020.5.14
@@ -113,9 +108,6 @@ tensorboard==1.13.1
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
-Theano==1.0.4
-threadpoolctl==2.0.0
-tinysegmenter==0.3
 tldextract==2.2.2
 torch==1.4.0
 torchvision==0.4.1
@@ -126,11 +118,3 @@ transitions==0.6.9
 typed-ast==1.4.0
 urllib3==1.25.9
 virtualenv==16.0.0
-w3lib==1.22.0
-wcwidth==0.1.9
-webencodings==0.5.1
-Werkzeug==1.0.1
-wincertstore==0.2
-wrapt==1.11.2
-zipp==3.1.0
-zope.interface==5.1.0
