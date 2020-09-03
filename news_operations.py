@@ -113,7 +113,7 @@ def analyse_news_article(url):
         outlet = "Reuters"
         parser = news_parser.Reuters("https://uk.reuters.com")
     elif "thesun" in url:
-        outlet = "BBC"
+        outlet = "Sun"
         parser = news_parser.Sun("https://www.thesun.co.uk")
     elif "independent" in url:
         outlet = "Independent"

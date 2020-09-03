@@ -201,6 +201,6 @@ if __name__ == '__main__':
    app.run()
 
    # Start the thread to collect and analyse real-time headlines
-   # update_news()
-   # t = Thread(target=update_db)
-   # t.start()
+   update_news()
+   t = Thread(target=update_db)
+   t.start()
