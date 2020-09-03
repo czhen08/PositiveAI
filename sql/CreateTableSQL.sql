@@ -1,80 +1,80 @@
-CREATE TABLE training_dataset
+CREATE TABLE BBC_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
-    Text text,
-    Sentiment text,
+	Topic text,
+    Title text,
+	Content text,
+	Sentiment text,
     URL text
 )
 
-
-CREATE TABLE BBC_Positive
+CREATE TABLE DailyMail_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE DailyMail_Positive
+CREATE TABLE Guardian_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Guardian_Positive
+CREATE TABLE Metro_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Metro_Positive
+CREATE TABLE Mirror_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Mirror_Positive
+CREATE TABLE Reuters_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Reuters_Positive
+CREATE TABLE Independent_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Sun_Positive
+CREATE TABLE Sun_Topics_Sentiment
 (
     NewsId INT IDENTITY PRIMARY KEY,
+	Topic text,
     Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
+	Content text,
+	Sentiment text,
+    URL text
 )
 
-CREATE TABLE Independent_Positive
-(
-    NewsId INT IDENTITY PRIMARY KEY,
-    Title text,
-    Content text,
-    NewsURL text,
-    ImageURL text
-)

@@ -2,6 +2,10 @@ from pytorch_pretrained_bert import BertModel
 from torch import nn
 
 class BertBinaryClassifier(nn.Module):
+    """
+    Define the BertBinaryClassifier class.
+    Called by the app.py to serve the BERT model.
+    """
     def __init__(self, dropout=0.1):
         super(BertBinaryClassifier, self).__init__()
         self.bert = BertModel.from_pretrained('bert-base-uncased')
